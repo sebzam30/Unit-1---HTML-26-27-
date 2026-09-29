@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Sign-Up Form</title>
+</head>
+
+<body>
+    <h1>Club Sign-Up</h1>
+    <form action="#" method="GET">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required> <br>
+        <label for="startdate">Date you can start:</label>
+        <input type="date" id="startdate" name="startdate" required> <br>
+        <fieldset>
+            <legend>Select Your Grade Level & Period:</legend>
+            <label for="grade-9">Grade 9</label>
+            <input type="radio" id="grade-9" name="grade" > <br>
+            <label for="grade-10">Grade 10</label>
+            <input type="radio" id="grade-10" name="grade" > <br>
+            <label for="grade-11">Grade 11</label>
+            <input type="radio" id="grade-11" name="grade" > <br>
+            <label for="grade-12">Grade 12</label>
+            <input type="radio" id="grade-12" name="grade" > <br><br>
+
+            <!-- <label for="period">Select Period:</label> -->
+            <select name="period" id="name">
+                <option value="" disabled selected>Select Period</option>
+                <option value="1">Period 1</option>
+                <option value="2">Period 2</option>
+                <option value="3">Period 3</option>
+            </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
